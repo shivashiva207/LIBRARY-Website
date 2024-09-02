@@ -1,0 +1,464 @@
+
+
+P {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
+  
+  h5 {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  h3{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  li{
+    list-style:none !important;
+  }
+  
+  
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+body{
+    height: 100vh;
+    text-align: center;
+    /* background-color: rgb(63, 2, 2); */
+
+}
+.shariya{
+    position: relative;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    text-decoration: none !important;
+    gap: 1.5rem !important; 
+    background-color: rgb(25, 25, 85) !important;
+    height: 70px !important;
+    padding-top: 30px !important;
+
+    
+ 
+
+}
+.surbhi{
+    color:rgb(245, 245, 249) !important;
+    font-weight:550 !important;
+    transform: 0.1rem !important;
+    font-size: 1rem !important;
+    gap: 1.5rem !important;
+    margin-left: 70px !important;
+    
+}
+
+    
+
+.diya{
+    display: none !important;
+  justify-content: center !important;
+    color:rgb(245, 245, 249) !important;
+    font-weight:550 !important;
+    transform: 0.1rem !important;
+    font-size: 1rem !important;
+    gap: 1.5rem !important;
+    margin-left: 70px !important;
+
+
+}
+@media screen and (max-width:1260px) {
+    .surbhi{
+        margin-left: 40px !important;
+        
+
+    }
+
+}
+@media screen and (max-width:1052px) {
+    .surbhi{
+        margin-left: 30px !important;
+        
+
+    }
+
+}
+@media screen and (max-width:848px) {
+    .surbhi{
+       display: none !important;
+
+    }
+    .diya{
+    display: flex !important;
+    
+    font-weight:800 !important ;
+    transform: 0.1rem !important;
+    font-size: 2rem !important;
+    gap: 2rem !important;
+    /* margin-left: 200px !important; */
+    /* justify-content: space-between !important; */
+    justify-content: center;
+
+       
+    }
+
+}
+ @media screen and (max-width:365px) {
+    .surbhi{
+       display: none !important;
+
+    }
+    .diya{
+    display: flex;
+    color:rgb(245, 245, 249) !important;
+    font-weight:550  !important;
+    transform: 0.1rem !important;
+    font-size: 1rem !important;
+    gap: 1.5rem !important;
+    margin-left: 50px !important;
+    display: flex !important;
+    justify-content: center !important;
+
+    } 
+}
+
+/* ==================================================navbar==================================== */
+
+#doriya{
+    background-color: rgb(16, 16, 98);
+    color: #fff;
+    border-radius: 40px;
+}
+
+.carousel-caption{
+    
+    width: 40%;
+}
+.carousel-caption p{
+    color: rgb(46, 46, 99);
+    }
+.carousel-caption h1{
+    color: rgb(17, 17, 41);
+
+    
+}
+/* #about-ceo{
+    width: 40%;
+} */
+#about-ceo h5{
+    color: rgb(246, 96, 41);
+    
+}
+#about-ceo p{
+    color: black;
+}
+#span{
+    color: rgb(29, 29, 54);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+#me{
+    color: white;
+    padding-top: 70px;
+
+}
+#we {
+    color: rgb(237, 228, 228);
+    padding-top: 70px;
+}
+/* .card-body{
+    margin: 15px;
+} */
+ .text-start{
+    display: flex;
+    align-items: start;
+    padding-bottom: 10px;
+ }
+.p{
+    color: rgb(52, 50, 50);
+}
+#box1{
+    background-color: rgb(33, 33, 65);
+    height: 350px;
+
+}
+#box2{
+    background-color: orangered;
+    height: 350px;
+
+}
+#box3{
+    background-color: purple;
+    height: 350px;
+
+}
+#box4{
+    background-color: rgb(3, 28, 3);
+    height: 350px;
+
+}
+/* ========================================footer=============================================== */
+.footer{
+  width: 100% !important;
+  /* position: absolute !important; */
+  bottom: 0 !important;
+  background:white !important;
+  color: #0c0c0c !important;
+  padding: 100px 0 30px !important;
+  border-top-left-radius: 125px !important;
+  font-size: 13px !important;
+  line-height: 20px !important;
+}
+.uttam{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.baba{
+  flex-basis: 20%;
+  padding: 10px;
+
+}
+.baba p{
+  color: #0c0c0c;
+}
+.aira{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+}
+.liya{
+  flex-basis: 25%;
+  padding: 10px;
+
+}
+.liya p{
+  color: #0c0c0c;
+}
+.copy{
+  width: 85%;
+  height: 40px;
+  padding-top: 5px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-top: 1px solid rgb(241, 236, 236);
+  border-bottom: 1px solid rgb(241, 236, 236);
+}
+.desi-1{
+  flex-basis: 40%;
+  padding: 10px;
+
+}
+.desi-2{
+  flex-basis: 25%;
+  padding: 10px;
+
+}
+.desi-1 p{
+  color: #0c0c0c;
+}
+.desi-2 p{
+  color: #0c0c0c;
+}
+.naestinn{
+  color: orangered !important;
+  font-size: 1rem;
+  font-weight: 700;
+}
+p a{
+  text-decoration: none;
+  color: #0c0c0c;
+}
+/* ===================================buttan========================================= */
+#buttan-yello{
+  border-radius: 40px;
+  width: 150px;
+  background-color: orangered;
+  border: none;
+  
+}
+#buttn-blue{
+  border-radius: 40px;
+  width: 150px;
+  border: none;
+  background-color: rgb(35, 35, 89);
+}
+
+/* ========================================DEAR SHHOOL================================== */
+#DEAR-SCHOOL{
+  background-color: rgb(231, 204, 208);
+}
+#dear-1{
+  height: 300px;
+  background-color: rgb(47, 47, 71);
+  color: white;
+
+}
+#dear-2{
+  height: 300px;
+  background-color: orangered;
+  color: white;
+
+}
+#dear-3{
+  height: 300px;
+  background-color: rgb(13, 69, 13);
+  color: white;
+
+}
+/* .text-center{
+    display: flex;
+
+} */
+/* =============================================coup========================================== */
+
+.coup{
+    width: 100%;
+    /* align-content: center; */
+    background-image: url(" ../images/news.png");
+}
+.baba-coup{
+    width: 75%;
+    height: 500px;
+    /* align-items: center; */
+    margin: auto;
+    /* display: flex; */
+    align-items: flex-start;
+
+}
+.baba-coup h1{
+    color: #fff;
+
+}
+
+.baba-coup p{
+    color: #fff;
+}
+#b-coup{
+    width: 40%;
+    color: #fff;
+    align-items: flex-start;
+    padding-top: 20px;
+
+}
+#loriya{
+    align-items: flex-start;
+}
+
+
+/* =============================================ABOUTPAGE========================================== */
+
+#loriya h5{
+  color: rgb(20, 20, 80);
+  text-transform: capitalize;
+}
+#we-are{
+  background-color:rgb(23, 23, 64) ;
+  color: rgb(246, 246, 248);
+  
+}
+
+.Home-about{
+  background-image: linear-gradient(rgba(9,5,54,0.3,rgba(5,4,46,0.7)));
+  background-image: url("../images/image\ \(3\).png");
+  width: 100%;
+  height: 50vh;
+  /* background-repeat:no-repeat; */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 2px 0;
+}
+.Home-about h2{
+  color: #fff;
+
+}
+
+
+/* <!-- ============================================OVERVISION=============================================== --> */
+
+
+.Home-card{
+  background-color: rgb(254, 195, 173);
+}
+.vision{
+  color: orangered;
+}
+.over{
+  background-color: rgb(254, 195, 173);
+}
+
+/*  ============================================OVERBOOK=============================================== */
+
+
+.Home-books{
+  background-image: linear-gradient(rgba(9,5,54,0.3,rgba(5,4,46,0.7)));
+  background-image: url("../images/image\ \(6\).png");
+  width: 100%;
+  height: 50vh;
+  /* background-repeat:no-repeat; */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 2px 0;
+}
+.Home-books h2{
+  color: #fff;
+
+}
+/* <!-- ============================================contectus=============================================== --> */
+
+.Home-conteact{
+  background-image: linear-gradient(rgba(9,5,54,0.3,rgba(5,4,46,0.7)));
+  background-image: url("../images/image\ \(5\).png");
+  width: 100%;
+  height: 50vh;
+  /* background-repeat:no-repeat; */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 2px 0;
+}
+.Home-conteact h2{
+  color: #fff;
+
+}
