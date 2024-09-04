@@ -462,3 +462,127 @@ p a{
   color: #fff;
 
 }
+
+/* <!-- ============================================contectME=============================================== --> */
+
+.section-subtitle {
+  color: brown;
+  text-transform: uppercase;
+  font-weight:700;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.section-title { text-align: center; }
+.contact .wrapper {
+  display: grid;
+  gap: 35px;
+}
+
+.contact-form {
+  background-color: rgb(248, 222, 222);
+  padding: 30px;
+  display: grid;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  background-color: white;
+  padding: 10px;
+  margin-block-end: 15px;
+  outline: none;
+  border-block-end: 2px solid transparent;
+}
+#now{
+  background-color: brown;
+  color: #fff;
+}
+
+.input-field:focus { border-color: brown; }
+
+textarea.input-field {
+  resize: vertical;
+  min-height: 120px;
+  height: 120px;
+  max-height: 200px;
+}
+
+.contact-form .btn { margin-inline: auto; }
+
+.contact-card {
+  background-color: rgb(250, 217, 217);
+  padding: 30px;
+}
+
+.contact-card .card-title {
+  font-family: 'Philosopher', sans-serif;
+  text-transform: uppercase;
+  font-weight:700;
+}
+
+.contact-card > li:not(:last-child) { margin-block-end: 30px; }
+
+.contact-card .card-link {
+  color:  hsla(304, 63%, 47%, 0.3);
+  transition: 4s;
+}
+
+.contact-card .card-link:is(:hover, :focus) { color: brown; }
+
+.social-list-title {
+  font-size: 2rem;
+  font-weight:700;
+  margin-block-end: 15px;
+}
+
+.social-list {
+  display: flex;
+  gap: 10px;
+}
+
+.social-link {
+  background-color: brown;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  box-shadow: 3px 3px;
+  transition: 4s;
+}
+
+.social-link:is(:hover, :focus) {
+  background-color: var( hsla(304, 14%, 46%, 0.3));
+  box-shadow: none;
+}
+@media (min-width: 575px) {
+  .social-list-title { --fs-6: 2.2rem; }
+
+  .social-link {
+    font-size: 25px;
+    padding: 8px;
+  }
+  .container {
+    max-width: 540px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+}
+@media (min-width: 768px) {
+  .contact .wrapper { grid-template-columns: 1fr 1fr; }
+  .container { max-width: 720px; }
+
+  .grid-list { grid-template-columns: 1fr 1fr; }
+
+}
+@media (min-width: 992px) {
+  .contact .wrapper { grid-template-columns: 1fr 0.5fr; }
+
+  .contact-form { padding: 40px; }
+  .container { max-width: 960px; }
+}
+@media (min-width: 1200px) {
+  .container { max-width: 1140px; }
+
+}
+
+
+
